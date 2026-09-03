@@ -127,6 +127,12 @@ Agent 会自动下载 [OpenClaw 官方技能](skills/openclaw/qveris-official/SK
 
 请按照 [安装指南 (agent/SETUP.md)](agent/SETUP.md) 操作 — Agent 会为你的环境配置 MCP server + [技能](skills/qveris/SKILL.md)。
 
+#### Devin Desktop / Windsurf
+
+QVeris 可作为 MCP server 添加到 Cascade 或 Devin。对于经典 Cascade，可在 MCP Marketplace 的自定义服务器表单或 `mcp_config.json` 中使用已发布的 stdio 包，并配置 `QVERIS_API_KEY`。对于 Devin Local 和已开通插件测试的组织，本仓库也包含了绑定 QVeris skills 与 MCP server 的 Devin 插件清单。
+
+复制即用的配置、审核信息与当前验收状态见 [Devin Desktop / Windsurf 上架材料](marketplace/devin-windsurf/SUBMISSION.md)。
+
 ### 安装完成后
 
 试一个任务："帮我查一下东京现在的天气"

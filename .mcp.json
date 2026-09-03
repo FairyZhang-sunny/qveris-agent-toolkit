@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "qveris": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@qverisai/mcp@0.14.0"
+      ],
+      "env": {
+        "QVERIS_API_KEY": "${env:QVERIS_API_KEY}"
+      }
+    }
+  }
+}

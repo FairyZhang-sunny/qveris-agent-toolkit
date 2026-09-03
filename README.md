@@ -139,6 +139,12 @@ The Cursor plugin in this repository bundles the hosted QVeris MCP connection an
 
 The API key is stored by Cursor as a plugin variable and is never committed to this repository.
 
+#### Devin Desktop and Windsurf
+
+QVeris can be added to Cascade or Devin as an MCP server. For legacy Cascade, use the published stdio package with `QVERIS_API_KEY` in the MCP Marketplace custom-server form or `mcp_config.json`. For Devin Local and organizations with plugin beta access, this repository also includes a Devin plugin manifest that bundles the QVeris skills and MCP server.
+
+See the [Devin Desktop / Windsurf submission and setup packet](marketplace/devin-windsurf/SUBMISSION.md) for the copy-ready configuration, review metadata, and current validation status.
+
 ### After setup
 
 Try a task: "Check the current weather in Tokyo"
