@@ -21,4 +21,4 @@ If a result appears to have side effects, is ambiguously classified, or conflict
 
 If QVeris is not connected, direct the user to the plugin's Connectors tab and the QVeris browser sign-in flow. Do not collect passwords in chat, read local credential files, expose API keys or OAuth tokens, or silently switch to a shared credential. A 401 requires reconnecting. An outage is a failure to report, not a result to fabricate.
 
-Use `usage_history` or `credits_ledger` only when the user asks to audit their own QVeris usage or charges. Start with summary mode and narrow filters. Do not infer a final charge from a quote alone.
+For account usage or charge audits, direct the user to their QVeris account dashboard at https://qveris.ai/account. The OAuth connector does not support account usage history or credits ledger operations; do not call `usage_history` or `credits_ledger`. Do not infer a final charge from a quote alone.

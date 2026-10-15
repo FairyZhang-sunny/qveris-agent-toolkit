@@ -1,6 +1,6 @@
 # QVeris Professional Data
 
-QVeris helps Claude find and retrieve current professional data from supported data and API providers. Use it for research that needs structured external information, provider discovery, current contracts, parameter validation, source details, or explicit QVeris usage and credit audits.
+QVeris helps Claude find and retrieve current professional data from supported data and API providers. Use it for research that needs structured external information, provider discovery, current contracts, parameter validation, or source details.
 
 ## What this plugin includes
 
@@ -15,7 +15,7 @@ QVeris helps Claude find and retrieve current professional data from supported d
 3. Ask Claude for a supported research task, such as a weather forecast, company information, market data, research literature, product data, or another current external dataset.
 4. Claude discovers candidate capabilities, checks their current metadata when needed, and executes only the capability selected for the user's request.
 
-Discovery and inspection are free. A provider call may consume QVeris credits under the billing rule shown for that capability. QVeris returns execution and billing metadata when available. A timed-out or uncertain paid call must not be repeated automatically.
+Discovery and inspection are free. A provider call may consume QVeris credits under the billing rule shown for that capability. QVeris returns execution and billing metadata when available. A timed-out or uncertain paid call must not be repeated automatically. For final usage and charges, use your [QVeris account dashboard](https://qveris.ai/account). Account usage history and credits ledger access are not available through this plugin's OAuth connection.
 
 ## Data handling and external services
 
